@@ -1,0 +1,201 @@
+2024-08-29 05:26:07,977 INFO [main]	register protocol:1 success
+2024-08-29 05:26:08,099 INFO [main]	register protocol:29 success
+2024-08-29 05:26:08,102 INFO [main]	register protocol:4 success
+2024-08-29 05:26:08,106 INFO [main]	register protocol:3 success
+2024-08-29 05:26:08,108 INFO [main]	register protocol:31 success
+2024-08-29 05:26:08,108 INFO [main]	register protocol:28 success
+2024-08-29 05:26:08,110 INFO [main]	register protocol:32 success
+2024-08-29 05:26:08,112 INFO [main]	register protocol:33 success
+2024-08-29 05:26:08,113 INFO [main]	register protocol:30 success
+2024-08-29 05:26:08,114 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-08-29 05:26:08,114 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-08-29 05:26:08,115 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-08-29 05:26:08,116 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-08-29 05:26:08,164 INFO [main]	create thread:timeout-timer-thread-1
+2024-08-29 05:26:08,169 INFO [main]	create thread:health-check-timer-thread-1
+2024-08-29 05:26:08,178 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-08-29 05:26:08,181 INFO [main]	create thread:client-work-thread-1
+2024-08-29 05:26:08,420 INFO [main]	create thread:client-io-thread-1
+2024-08-29 05:26:09,169 INFO [client-io-thread-1]	create thread:invalid-channel-callback-thread-1
+2024-08-29 05:26:27,034 INFO [main]	register protocol:1 success
+2024-08-29 05:26:27,079 INFO [main]	register protocol:29 success
+2024-08-29 05:26:27,082 INFO [main]	register protocol:4 success
+2024-08-29 05:26:27,086 INFO [main]	register protocol:3 success
+2024-08-29 05:26:27,089 INFO [main]	register protocol:31 success
+2024-08-29 05:26:27,089 INFO [main]	register protocol:28 success
+2024-08-29 05:26:27,091 INFO [main]	register protocol:32 success
+2024-08-29 05:26:27,094 INFO [main]	register protocol:33 success
+2024-08-29 05:26:27,095 INFO [main]	register protocol:30 success
+2024-08-29 05:26:27,098 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-08-29 05:26:27,099 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-08-29 05:26:27,100 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-08-29 05:26:27,101 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-08-29 05:26:27,133 INFO [main]	create thread:timeout-timer-thread-1
+2024-08-29 05:26:27,136 INFO [main]	create thread:health-check-timer-thread-1
+2024-08-29 05:26:27,140 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-08-29 05:26:27,142 INFO [main]	create thread:client-work-thread-1
+2024-08-29 05:26:27,250 INFO [main]	create thread:client-io-thread-1
+2024-08-29 05:26:27,457 INFO [client-io-thread-1]	create thread:invalid-channel-callback-thread-1
+2024-08-29 05:26:29,678 INFO [Thread-1]	Brpc do clean work...
+2024-08-29 05:26:29,679 INFO [Thread-1]	invoke shutdownGlobalThreadPools
+2024-08-29 05:47:18,777 INFO [main]	register protocol:1 success
+2024-08-29 05:47:18,841 INFO [main]	register protocol:29 success
+2024-08-29 05:47:18,845 INFO [main]	register protocol:4 success
+2024-08-29 05:47:18,851 INFO [main]	register protocol:3 success
+2024-08-29 05:47:18,854 INFO [main]	register protocol:31 success
+2024-08-29 05:47:18,855 INFO [main]	register protocol:28 success
+2024-08-29 05:47:18,858 INFO [main]	register protocol:32 success
+2024-08-29 05:47:18,862 INFO [main]	register protocol:33 success
+2024-08-29 05:47:18,863 INFO [main]	register protocol:30 success
+2024-08-29 05:47:18,865 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-08-29 05:47:18,866 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-08-29 05:47:18,868 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-08-29 05:47:18,869 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-08-29 05:47:18,919 INFO [main]	create thread:timeout-timer-thread-1
+2024-08-29 05:47:18,922 INFO [main]	create thread:health-check-timer-thread-1
+2024-08-29 05:47:18,925 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-08-29 05:47:18,929 INFO [main]	create thread:client-work-thread-1
+2024-08-29 05:47:19,069 INFO [main]	create thread:client-io-thread-1
+2024-08-29 05:47:19,369 INFO [client-io-thread-1]	create thread:invalid-channel-callback-thread-1
+2024-08-29 05:47:21,583 INFO [Thread-1]	Brpc do clean work...
+2024-08-29 05:47:26,166 INFO [main]	register protocol:1 success
+2024-08-29 05:47:26,229 INFO [main]	register protocol:29 success
+2024-08-29 05:47:26,233 INFO [main]	register protocol:4 success
+2024-08-29 05:47:26,238 INFO [main]	register protocol:3 success
+2024-08-29 05:47:26,239 INFO [main]	register protocol:31 success
+2024-08-29 05:47:26,240 INFO [main]	register protocol:28 success
+2024-08-29 05:47:26,242 INFO [main]	register protocol:32 success
+2024-08-29 05:47:26,244 INFO [main]	register protocol:33 success
+2024-08-29 05:47:26,244 INFO [main]	register protocol:30 success
+2024-08-29 05:47:26,246 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-08-29 05:47:26,246 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-08-29 05:47:26,248 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-08-29 05:47:26,248 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-08-29 05:47:26,281 INFO [main]	create thread:timeout-timer-thread-1
+2024-08-29 05:47:26,287 INFO [main]	create thread:health-check-timer-thread-1
+2024-08-29 05:47:26,291 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-08-29 05:47:26,295 INFO [main]	create thread:client-work-thread-1
+2024-08-29 05:47:26,414 INFO [main]	create thread:client-io-thread-1
+2024-08-29 05:47:26,725 INFO [client-io-thread-1]	create thread:invalid-channel-callback-thread-1
+2024-08-29 05:47:28,943 INFO [Thread-1]	Brpc do clean work...
+2024-08-29 05:53:00,605 INFO [main]	register protocol:1 success
+2024-08-29 05:53:00,663 INFO [main]	register protocol:29 success
+2024-08-29 05:53:00,667 INFO [main]	register protocol:4 success
+2024-08-29 05:53:00,672 INFO [main]	register protocol:3 success
+2024-08-29 05:53:00,674 INFO [main]	register protocol:31 success
+2024-08-29 05:53:00,675 INFO [main]	register protocol:28 success
+2024-08-29 05:53:00,678 INFO [main]	register protocol:32 success
+2024-08-29 05:53:00,680 INFO [main]	register protocol:33 success
+2024-08-29 05:53:00,682 INFO [main]	register protocol:30 success
+2024-08-29 05:53:00,683 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-08-29 05:53:00,683 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-08-29 05:53:00,684 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-08-29 05:53:00,686 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-08-29 05:53:00,729 INFO [main]	create thread:timeout-timer-thread-1
+2024-08-29 05:53:00,733 INFO [main]	create thread:health-check-timer-thread-1
+2024-08-29 05:53:00,736 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-08-29 05:53:00,739 INFO [main]	create thread:client-work-thread-1
+2024-08-29 05:53:00,866 INFO [main]	create thread:client-io-thread-1
+2024-08-29 05:53:01,144 INFO [client-io-thread-1]	create thread:invalid-channel-callback-thread-1
+2024-08-29 05:53:03,371 INFO [Thread-1]	Brpc do clean work...
+2024-08-29 06:00:56,172 INFO [main]	register protocol:1 success
+2024-08-29 06:00:56,231 INFO [main]	register protocol:29 success
+2024-08-29 06:00:56,235 INFO [main]	register protocol:4 success
+2024-08-29 06:00:56,240 INFO [main]	register protocol:3 success
+2024-08-29 06:00:56,242 INFO [main]	register protocol:31 success
+2024-08-29 06:00:56,244 INFO [main]	register protocol:28 success
+2024-08-29 06:00:56,247 INFO [main]	register protocol:32 success
+2024-08-29 06:00:56,250 INFO [main]	register protocol:33 success
+2024-08-29 06:00:56,251 INFO [main]	register protocol:30 success
+2024-08-29 06:00:56,253 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-08-29 06:00:56,254 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-08-29 06:00:56,255 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-08-29 06:00:56,255 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-08-29 06:00:56,299 INFO [main]	create thread:timeout-timer-thread-1
+2024-08-29 06:00:56,305 INFO [main]	create thread:health-check-timer-thread-1
+2024-08-29 06:00:56,310 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-08-29 06:00:56,313 INFO [main]	create thread:client-work-thread-1
+2024-08-29 06:00:56,443 INFO [main]	create thread:client-io-thread-1
+2024-08-29 06:00:56,835 INFO [client-io-thread-1]	create thread:invalid-channel-callback-thread-1
+2024-08-29 06:00:59,068 INFO [Thread-1]	Brpc do clean work...
+2024-08-29 06:00:59,069 INFO [Thread-1]	invoke shutdownGlobalThreadPools
+2024-08-29 06:01:02,727 INFO [main]	register protocol:1 success
+2024-08-29 06:01:02,787 INFO [main]	register protocol:29 success
+2024-08-29 06:01:02,793 INFO [main]	register protocol:4 success
+2024-08-29 06:01:02,798 INFO [main]	register protocol:3 success
+2024-08-29 06:01:02,800 INFO [main]	register protocol:31 success
+2024-08-29 06:01:02,803 INFO [main]	register protocol:28 success
+2024-08-29 06:01:02,806 INFO [main]	register protocol:32 success
+2024-08-29 06:01:02,810 INFO [main]	register protocol:33 success
+2024-08-29 06:01:02,811 INFO [main]	register protocol:30 success
+2024-08-29 06:01:02,814 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-08-29 06:01:02,815 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-08-29 06:01:02,816 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-08-29 06:01:02,817 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-08-29 06:01:02,862 INFO [main]	create thread:timeout-timer-thread-1
+2024-08-29 06:01:02,866 INFO [main]	create thread:health-check-timer-thread-1
+2024-08-29 06:01:02,871 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-08-29 06:01:02,873 INFO [main]	create thread:client-work-thread-1
+2024-08-29 06:01:03,014 INFO [main]	create thread:client-io-thread-1
+2024-08-29 06:01:03,319 INFO [client-io-thread-1]	create thread:invalid-channel-callback-thread-1
+2024-08-29 06:01:05,537 INFO [Thread-1]	Brpc do clean work...
+2024-08-29 19:16:58,921 INFO [main]	register protocol:1 success
+2024-08-29 19:16:58,968 INFO [main]	register protocol:29 success
+2024-08-29 19:16:58,971 INFO [main]	register protocol:4 success
+2024-08-29 19:16:58,975 INFO [main]	register protocol:3 success
+2024-08-29 19:16:58,978 INFO [main]	register protocol:31 success
+2024-08-29 19:16:58,979 INFO [main]	register protocol:28 success
+2024-08-29 19:16:58,981 INFO [main]	register protocol:32 success
+2024-08-29 19:16:58,984 INFO [main]	register protocol:33 success
+2024-08-29 19:16:58,985 INFO [main]	register protocol:30 success
+2024-08-29 19:16:58,988 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-08-29 19:16:58,989 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-08-29 19:16:58,990 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-08-29 19:16:58,990 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-08-29 19:16:59,033 INFO [main]	create thread:timeout-timer-thread-1
+2024-08-29 19:16:59,037 INFO [main]	create thread:health-check-timer-thread-1
+2024-08-29 19:16:59,041 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-08-29 19:16:59,043 INFO [main]	create thread:client-work-thread-1
+2024-08-29 19:16:59,146 INFO [main]	create thread:client-io-thread-1
+2024-08-29 19:16:59,442 INFO [client-io-thread-1]	create thread:invalid-channel-callback-thread-1
+2024-08-29 19:17:10,548 INFO [main]	register protocol:1 success
+2024-08-29 19:17:10,593 INFO [main]	register protocol:29 success
+2024-08-29 19:17:10,596 INFO [main]	register protocol:4 success
+2024-08-29 19:17:10,600 INFO [main]	register protocol:3 success
+2024-08-29 19:17:10,601 INFO [main]	register protocol:31 success
+2024-08-29 19:17:10,602 INFO [main]	register protocol:28 success
+2024-08-29 19:17:10,604 INFO [main]	register protocol:32 success
+2024-08-29 19:17:10,605 INFO [main]	register protocol:33 success
+2024-08-29 19:17:10,606 INFO [main]	register protocol:30 success
+2024-08-29 19:17:10,607 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-08-29 19:17:10,608 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-08-29 19:17:10,608 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-08-29 19:17:10,608 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-08-29 19:17:10,642 INFO [main]	create thread:timeout-timer-thread-1
+2024-08-29 19:17:10,644 INFO [main]	create thread:health-check-timer-thread-1
+2024-08-29 19:17:10,650 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-08-29 19:17:10,654 INFO [main]	create thread:client-work-thread-1
+2024-08-29 19:17:10,769 INFO [main]	create thread:client-io-thread-1
+2024-08-29 19:17:11,058 INFO [client-io-thread-1]	create thread:invalid-channel-callback-thread-1
+2024-08-29 19:17:13,272 INFO [Thread-1]	Brpc do clean work...
+2024-08-29 19:17:13,274 INFO [Thread-1]	invoke shutdownGlobalThreadPools
+2024-08-29 19:17:18,560 INFO [main]	register protocol:1 success
+2024-08-29 19:17:18,607 INFO [main]	register protocol:29 success
+2024-08-29 19:17:18,610 INFO [main]	register protocol:4 success
+2024-08-29 19:17:18,614 INFO [main]	register protocol:3 success
+2024-08-29 19:17:18,617 INFO [main]	register protocol:31 success
+2024-08-29 19:17:18,617 INFO [main]	register protocol:28 success
+2024-08-29 19:17:18,620 INFO [main]	register protocol:32 success
+2024-08-29 19:17:18,623 INFO [main]	register protocol:33 success
+2024-08-29 19:17:18,623 INFO [main]	register protocol:30 success
+2024-08-29 19:17:18,627 INFO [main]	register load balance factory:RandomLoadBalanceFactory success
+2024-08-29 19:17:18,627 INFO [main]	register load balance factory:RoundRobinLoadBalanceFactory success
+2024-08-29 19:17:18,627 INFO [main]	register load balance factory:WeightLoadBalanceFactory success
+2024-08-29 19:17:18,628 INFO [main]	register load balance factory:FairLoadBalanceFactory success
+2024-08-29 19:17:18,666 INFO [main]	create thread:timeout-timer-thread-1
+2024-08-29 19:17:18,670 INFO [main]	create thread:health-check-timer-thread-1
+2024-08-29 19:17:18,674 INFO [main]	create thread:fairStrategy-timer-thread-1
+2024-08-29 19:17:18,676 INFO [main]	create thread:client-work-thread-1
+2024-08-29 19:17:18,780 INFO [main]	create thread:client-io-thread-1
+2024-08-29 19:17:19,022 INFO [client-io-thread-1]	create thread:invalid-channel-callback-thread-1
+2024-08-29 19:17:21,239 INFO [Thread-1]	Brpc do clean work...
