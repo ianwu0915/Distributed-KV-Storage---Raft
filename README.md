@@ -12,6 +12,7 @@ Reference from [Raft Paper](https://github.com/maemual/raft-zh_cn) and Raft auth
 ## Quick Start
 Deploy a 3-instance raft cluster on local machine by executing the following script:<br>
 cd raft-java-example && sh deploy.sh <br>
+
 This script will deploy three instances (example1, example2, example3) in raft-java-example/env directory;<br>
 It will also create a client directory for testing read/write functionality of the raft cluster.<br>
 After successful deployment, test write operation with the following script:
