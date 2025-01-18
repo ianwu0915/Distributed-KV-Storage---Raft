@@ -1,6 +1,6 @@
 
 # raft-java
-Raft implementation library for Java using Java 8 and would work on windows only.<br>
+Raft implementation library for Java using Java 8 and would work on windows only (not for ARM architecture at the moment).<br>
 Reference from [Raft Paper](https://github.com/maemual/raft-zh_cn) and Raft author's open source implementation [LogCabin](https://github.com/logcabin/logcabin).
 
 # Supported Features
