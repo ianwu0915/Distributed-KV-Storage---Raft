@@ -16,11 +16,14 @@ cd raft-java-example && sh deploy.sh <br>
 This script will deploy three instances (example1, example2, example3) in raft-java-example/env directory;<br>
 It will also create a client directory for testing read/write functionality of the raft cluster.<br>
 After successful deployment, test write operation with the following script:
-cd env/client <br>
-./bin/run_client.sh "list://127.0.0.1:8051,127.0.0.1:8052,127.0.0.1:8053" hello world <br>
-Test read operation command:<br>
+````
+cd env/client 
+./bin/run_client.sh "list://127.0.0.1:8051,127.0.0.1:8052,127.0.0.1:8053" hello world
+````
+Test read operation command:
+````
 ./bin/run_client.sh "list://127.0.0.1:8051,127.0.0.1:8052,127.0.0.1:8053" hello
-
+````
 # Usage
 Below describes how to use the raft-java dependency library in code to implement a distributed storage system.
 ## Configure Dependencies (Not yet published to maven central repository, need to manually install locally)

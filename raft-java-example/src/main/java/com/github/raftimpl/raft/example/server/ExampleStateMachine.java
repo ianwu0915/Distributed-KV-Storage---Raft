@@ -32,6 +32,8 @@ public class ExampleStateMachine implements StateMachine {
 
     @Override
     public void writeSnapshot(String snapshotDir) {
+        // Create a checkpoint of the current state machine to the snapshot directory
+        // So that the snapshot can be read back in later
         Checkpoint checkpoint = Checkpoint.create(db);
         try {
             checkpoint.createCheckpoint(snapshotDir);
@@ -42,6 +44,7 @@ public class ExampleStateMachine implements StateMachine {
         }
     }
 
+    // Read the snapshot from the snapshot directory
     @Override
     public void readSnapshot(String snapshotDir) {
         try {
@@ -67,6 +70,7 @@ public class ExampleStateMachine implements StateMachine {
         }
     }
 
+    // Apply the data to the state machine by putting the key-value pair into the RocksDB database
     @Override
     public void apply(byte[] dataBytes) {
         try {
@@ -77,6 +81,7 @@ public class ExampleStateMachine implements StateMachine {
         }
     }
 
+    // Get the value from the state machine by getting the value from the RocksDB database
     public ExampleProto.GetResponse get(ExampleProto.GetRequest request) {
         try {
             ExampleProto.GetResponse.Builder responseBuilder = ExampleProto.GetResponse.newBuilder();

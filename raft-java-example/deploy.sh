@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 
 # Step 1: Build the core project
+# The core project (raft-java-core) is built first to ensure dependencies are ready.
 # Navigate to the core directory, clean, and install the project without running tests.
 echo "Building raft-java-core..."
 cd ../raft-java-core && mvn clean install -DskipTests
-cd -
+cd -  # go back to raft-example
 echo "Core build completed."
 
 # Step 2: Build and package the example project

@@ -21,6 +21,7 @@ public class ServerMain {
     public static void main(String[] args) {
         if (args.length != 3) {
             System.out.printf("Usage: ./run_server.sh DATA_PATH CLUSTER CURRENT_NODE\n");
+            // e.g. ./run_server.sh /tmp/raft_data "localhost:8001:1,localhost:8002:2,localhost:8003:3" "localhost:8001:1"
             System.exit(-1);
         }
         // parse args

@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# This script is used to run client application in the environment of raft-java-example to interact with Raft cluster
 if [ $# -lt 2 ]; then
     echo "Usage: ./run_client.sh CLUSTER KEY [VALUE]"
     exit

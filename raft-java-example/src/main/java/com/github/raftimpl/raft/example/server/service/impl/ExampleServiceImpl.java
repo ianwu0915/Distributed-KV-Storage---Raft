@@ -57,6 +57,7 @@ public class ExampleServiceImpl implements ExampleService {
         }
     }
 
+    // Write request
     @Override
     public ExampleProto.SetResponse set(ExampleProto.SetRequest request) {
         ExampleProto.SetResponse.Builder responseBuilder = ExampleProto.SetResponse.newBuilder();
@@ -81,6 +82,9 @@ public class ExampleServiceImpl implements ExampleService {
         return response;
     }
 
+
+    // Read request
+    // Consistency level: Strong
     @Override
     public ExampleProto.GetResponse get(ExampleProto.GetRequest request) {
         ExampleProto.GetResponse response = stateMachine.get(request);
