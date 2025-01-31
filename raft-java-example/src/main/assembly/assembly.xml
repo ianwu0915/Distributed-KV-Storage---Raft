@@ -2,36 +2,24 @@
           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xsi:schemaLocation="http://maven.apache.org/ASSEMBLY/2.0.0
 		  http://maven.apache.org/xsd/assembly-2.0.0.xsd">
-    <id>deploy</id>
+    <id>bin</id>
     <formats>
         <format>tar.gz</format>
     </formats>
-    <includeBaseDirectory>false</includeBaseDirectory>
-    <fileSets>
-        <!-- app bin -->
-        <fileSet>
-            <directory>src/main/assembly/bin</directory>
-            <outputDirectory>bin</outputDirectory>
-            <includes>
-                <include>./**/*.sh</include>
-            </includes>
-            <fileMode>0755</fileMode>
-        </fileSet>
-        <!-- app main conf -->
-        <fileSet>
-            <directory>target/conf</directory>
-            <outputDirectory>conf</outputDirectory>
-            <includes>
-                <include>./**/*.xml</include>
-                <include>./**/*.properties</include>
-                <include>./**/*.toml</include>
-            </includes>
-            <fileMode>0644</fileMode>
-        </fileSet>
-    </fileSets>
     <dependencySets>
         <dependencySet>
             <outputDirectory>lib</outputDirectory>
         </dependencySet>
     </dependencySets>
+    <fileSets>
+        <fileSet>
+            <directory>src/main/assembly/bin</directory>
+            <outputDirectory>bin</outputDirectory>
+            <fileMode>0755</fileMode>
+        </fileSet>
+        <fileSet>
+            <directory>src/main/resources</directory>
+            <outputDirectory>conf</outputDirectory>
+        </fileSet>
+    </fileSets>
 </assembly>

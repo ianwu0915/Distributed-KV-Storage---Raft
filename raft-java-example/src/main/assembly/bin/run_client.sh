@@ -1,8 +1,29 @@
 #!/bin/bash
+SCRIPT_DIR=$(dirname $0)
+LIB_DIR=$SCRIPT_DIR/../lib
+CONF_DIR=$SCRIPT_DIR/../conf
+
 if [ $# -lt 2 ]; then
-    echo "Usage: ./run_client.sh CLUSTER KEY [VALUE]"
-    exit
+    echo "Usage: $0 GROUP_CONFIG KEY [VALUE]"
+    echo "  GROUP_CONFIG: Path to the group configuration file (absolute path or relative to conf dir)"
+    echo "  KEY: Key to get/set"
+    echo "  VALUE: Optional value to set"
+    exit 1
 fi
+
+# Validate and resolve config file path
+CONFIG_FILE=$1
+if [ -f "$CONFIG_FILE" ]; then
+    RESOLVED_CONFIG="$CONFIG_FILE"
+elif [ -f "$CONF_DIR/$CONFIG_FILE" ]; then
+    RESOLVED_CONFIG="$CONF_DIR/$CONFIG_FILE"
+else
+    echo "Error: Configuration file not found at '$CONFIG_FILE' or '$CONF_DIR/$CONFIG_FILE'"
+    exit 1
+fi
+
+# Remove first argument (CONFIG_FILE) and pass remaining args to the program
+shift
 
 #begin adapt cygwin/mingw 
 UNAME_STR=$(uname -a)
@@ -47,4 +68,4 @@ JAVA_OPTS=" $JAVA_BASE_OPTS $JAVA_MEM_OPTS $JAVA_JMX_OPTS $JAVA_GC_OPTS $JAVA_CP
 
 RUNJAVA="$JAVA_HOME/bin/java"
 MAIN_CLASS=com.github.raftimpl.raft.example.client.ClientMain
-$RUNJAVA $JAVA_CP $MAIN_CLASS "$@"
+java -cp "$LIB_DIR/*:$CONF_DIR" $MAIN_CLASS "$RESOLVED_CONFIG" "$@"

@@ -72,6 +72,9 @@ public class RaftNode {
     private ScheduledFuture electionScheduledFuture;
     private ScheduledFuture heartbeatScheduledFuture;
 
+    private String groupId; // Unique identifier for this raft group
+    private static final int VIRTUAL_NODES = 100; // Number of virtual nodes for consistent hashing
+
     /**
      * Constructs a new RaftNode with the given parameters.
      *
@@ -86,12 +89,15 @@ public class RaftNode {
      * @param commitIndex      The index of the highest log entry known to be committed (initialized
      *                         to the snapshot's last included index)
      * @param lastAppliedIndex The index of the last log entry applied to the state machine
+     * @param groupId          The unique identifier for this raft group
      */
     public RaftNode(RaftOptions raftOptions,
         List<RaftProto.Server> servers,
         RaftProto.Server localServer,
-        StateMachine stateMachine) {
+        StateMachine stateMachine,
+        String groupId) {
         this.raftOptions = raftOptions;
+        this.groupId = groupId;
         RaftProto.Configuration.Builder confBuilder = RaftProto.Configuration.newBuilder();
         for (RaftProto.Server server : servers) {
             confBuilder.addServers(server);
@@ -1148,5 +1154,9 @@ public class RaftNode {
 
     public Condition getCatchUpCondition() {
         return catchUpCondition;
+    }
+
+    public String getGroupId() {
+        return groupId;
     }
 }
